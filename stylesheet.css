@@ -1,0 +1,66 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(315deg, #86c0b9, #9fe4db);
+}
+
+.ctnr {
+  justify-content: center;
+  align-items: center;
+}
+
+.batton a {
+  text-decoration: none;
+}
+
+.gototop a {
+  text-decoration: none;
+  color: black;
+}
+
+.batton {
+  width: 134px;
+  margin: 4px;
+  border-radius: 21px;
+  background: linear-gradient(315deg, #75cc8b, #8bf3a5);
+  box-shadow: -5px -5px 10px #79d38f, 5px 5px 10px #8bf3a5;
+}
+
+.nav-brand a {
+  text-decoration: none;
+}
+
+.navbar_1,
+.card,
+.footer {
+  border-radius: 12px;
+  background: linear-gradient(145deg, #219e9e, #28bbbb);
+  box-shadow: 6px 6px 12px #22a3a3, -6px -6px 12px #28bbbb;
+}
+
+.navbar_2 {
+  border-radius: 21px;
+  background: linear-gradient(315deg, #60e1c4, #72ffe9);
+  box-shadow: -5px -5px 10px #64e9cb, 5px 5px 10px #72ffe9;
+}
+
+.row3,
+.featurette {
+  border-radius: 50px;
+  background: linear-gradient(225deg, #a7e5cb, #c7fff1);
+  box-shadow: -20px 20px 60px #9ed8bf, 20px -20px 60px #d6ffff;
+  color: black;
+}
+
+.text-center {
+  font-weight: bolder;
+}
+
+.headp {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+code {
+  color: black;
+}
