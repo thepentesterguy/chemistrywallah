@@ -11,6 +11,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./stylesheet.css">
+    <script src="./main.js"></script>
     <title>Home of chemistrywallah</title>
 </head>
 
@@ -20,20 +21,26 @@
 
     <nav class="navbar navbar_1 navbar-light bg-light bg-light p-2 mx-2">
         <div class="container-fluid align-items-center justify-content-center">
-            <a class="navbar-brand" href="#">
-                <img src="./logo.png" alt="" class="d-inline-block align-text-center rounded-circle"><a
+            <a class="navbar-brand" href="./index.html">
+                <img src="./pictures/logo.png" alt="" class="d-inline-block align-text-center rounded-circle"><a
                     href="./index.html"></a> chemistrywallah
             </a>
         </div>
     </nav>
-
+    
     <!-- Upper Navbar ends here -->
 
+    <br>
+
+    <div id="contain" class="time m-2 p-2">Current Time: <span id="current"></span></div>
+
+    <br>
+    
     <!-- Secondary Navbar starts here -->
 
     <nav class="navbar navbar_2 navbar-expand-lg navbar-light rounded bg-light p-2 m-2">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">pcmwallah</a>
+            <a class="navbar-brand" href="./index.html">chemistrywallah</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,10 +62,10 @@
     <!-- Upper-card starts here -->
 
     <div class="card align-items-center bg-light p-2 m-2">
-        <img src="./whoami.png" class="card-img my-2" style="height: 50%; width: 50%;" alt="...">
+        <img src="./pictures/whoami.png" class="card-img my-2" style="height: 50%; width: 50%;" alt="...">
         <div class="card-body text-dark">
             <h2 class="card-title">Welcome to my site.</h2>
-            <p class="card-text">Here, I will post my notes of Chemistry.</p>
+            <p class="card-text">Here, I will post my notes of Physics, Chemistry, and Mathematics. </p>
         </div>
     </div>
 
@@ -74,9 +81,9 @@
             </p>
         </div>
         <div class="col-md-5">
-            <img class="rounded" width="95%" height="95%" src="./use_in_periodic_table.jpg" alt="">
+            <img class="rounded" width="95%" height="95%" src="./pictures/use_in_periodic_table.jpg" alt="">
         </div>
-        <button class="batton bg-light p-2 m-2 rounded"><a href="./periodic table.html">Go to
+        <button class="batton bg-light p-2 m-2 rounded"><a href="/periodic table.html">Go to
                 Article.</a></button>
     </div>
     <br>
@@ -90,7 +97,7 @@
             </p>
         </div>
         <div class="col-md-5">
-            <img class="rounded" width="95%" height="95%" src="./use_in_chemical_bonding.jpg" alt="">
+            <img class="rounded" width="95%" height="95%" src="./pictures/use_in_chemical_bonding.jpg" alt="">
         </div>
         <button class="batton p-2 m-2 rounded"><a href="./chemical bonding.html">Go to
                 Article.</a></button>
@@ -99,7 +106,7 @@
 
     <!-- Sticky footer starts here -->
 
-    <footer class="footer bg-dark p-2 mx-2 align-items-center justify-content-center">
+    <footer class="footer bg-light p-2 mx-2 align-items-center justify-content-center">
         <div class="container">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
