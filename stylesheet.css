@@ -31,8 +31,13 @@ body {
 }
 
 .navbar_1,
-.card,
 .footer {
+  border-radius: 0px 10px;
+  background: linear-gradient(225deg, #aae2d5, #8fbeb3);
+  box-shadow: -5px 5px 8px #5f7f77, 5px -5px 8px #dfffff;
+}
+
+.card {
   border-radius: 29px;
   background: linear-gradient(225deg, #aae2d5, #8fbeb3);
   box-shadow: -5px 5px 8px #5f7f77, 5px -5px 8px #dfffff;
@@ -40,6 +45,15 @@ body {
 
 .navbar_2 {
   border-radius: 29px;
+  background: linear-gradient(225deg, #89a7cc, #738cac);
+  box-shadow: -5px 5px 8px #4d5e73, 5px -5px 8px #b3daff;
+}
+
+.time {
+  width: auto;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 11px;
   background: linear-gradient(225deg, #89a7cc, #738cac);
   box-shadow: -5px 5px 8px #4d5e73, 5px -5px 8px #b3daff;
 }
